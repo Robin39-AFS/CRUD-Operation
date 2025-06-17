@@ -31,6 +31,8 @@ showAllUsers = () => {
 
     userList.innerHTML = "";
 
+    // We can check key another way
+    // console.log(Object.keys(localStorage)); this will return an array of keys.
     // Use a Loop in localStorage to view all users
     for (let i =0; i < localStorage.length; i++){
         // First get the key of localStorage
@@ -46,7 +48,7 @@ showAllUsers = () => {
                  <button onclick="editUser('${userData.name}')">Edit</button>
                  <button onclick="deleteUser('${userData.name}')">Delete</button>
              </td>`;
-
+        // Append the row to the user list
         userList.appendChild(row);
     }
 }
