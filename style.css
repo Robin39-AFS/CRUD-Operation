@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(21, 20, 24);
+    color: rgb(248, 193, 10);
+}
+
+body > h1, .list > h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 20px 0;
+    background-color: rgb(96, 69, 158);
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    margin: 0 40%;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+td, th{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgb(69, 11, 231);
+    color: rgb(13, 204, 252);
+}
